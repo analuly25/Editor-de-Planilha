@@ -76,4 +76,5 @@ Para mudar uma alíquota ou a lista de colunas, edite esse arquivo no Bloco de N
 ## Limitações
 - Lê só a primeira aba, se a entrada for Excel.
 - A UF usada no ICMS é a do circuito, e a fórmula do VALOR_BRUTO considera os 3,65% como segundo fator da divisão.
-- Para mudar o código (não só o per
+- Para mudar o código (não só o perfil), é preciso gerar o `.exe` de novo com `CRIAR_EXE.bat`.
+- Alguns antivírus desconfiam de `.exe` gerado por PyInstaller; se acontecer, peça à TI para liberar.
