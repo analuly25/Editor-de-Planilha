@@ -1,0 +1,50 @@
+{
+  "colunas_visiveis": [
+    "CODIGO_FATURA",
+    "CIRCUITO",
+    "ACESSO",
+    "UF_DO_CIRCUITO",
+    "PRECO_VIGENTE_DO_CIRCUITO",
+    "VALOR_LIQUIDO"
+  ],
+  "valor_bruto": {
+    "nome": "VALOR_BRUTO",
+    "coluna_base": "VALOR_LIQUIDO",
+    "coluna_uf": "UF_DO_CIRCUITO",
+    "pis_cofins": 0.0365
+  },
+  "colunas_numericas": [
+    "PRECO_VIGENTE_DO_CIRCUITO",
+    "VALOR_LIQUIDO"
+  ],
+  "aliquotas_icms": {
+    "AC": 0.19,
+    "AL": 0.215,
+    "AM": 0.2,
+    "AP": 0.18,
+    "BA": 0.205,
+    "CE": 0.2,
+    "DF": 0.2,
+    "ES": 0.17,
+    "GO": 0.19,
+    "MA": 0.23,
+    "MT": 0.17,
+    "MS": 0.17,
+    "MG": 0.18,
+    "PA": 0.19,
+    "PB": 0.2,
+    "PR": 0.195,
+    "PE": 0.205,
+    "PI": 0.225,
+    "RN": 0.2,
+    "RS": 0.17,
+    "RJ": 0.22,
+    "RO": 0.195,
+    "RR": 0.2,
+    "SC": 0.17,
+    "SP": 0.18,
+    "SE": 0.2,
+    "TO": 0.2
+  },
+  "coluna_duplicados": "ACESSO"
+}
